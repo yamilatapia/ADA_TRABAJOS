@@ -5,7 +5,7 @@ una.*/
 
 let frutas =  ['manzana', 'banana', 'cereza'];
 
-let listar = frutas.forEach(function(frutas){
+frutas.forEach(function(frutas){
     console.log(frutas);
     
 });
