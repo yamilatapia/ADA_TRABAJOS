@@ -13,5 +13,6 @@ let contarLetras = palabras.reduce(function(acum, valor){
 
 let words = ['sol', 'luna', 'estrella'];
 const totalLetters = words.reduce((total, word) => total + word.length, 0); // Suma las longitudes de las palabras.
-console.log(totalLetters); // Resultado: 16
+
+console.log(totalLetters); 
 console.log(contarLetras.length);
